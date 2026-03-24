@@ -1,14 +1,14 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Quadrimestre 4\\INFO2\\PROJECTE_INFO2-mainb\\PROJECTE_INFO2-main\\MisForms\\MisForms.csproj": {}
+    "C:\\Users\\Aran\\Desktop\\PROJECTE_INFO_ARREGLAT_2\\MisForms\\MisForms.csproj": {}
   },
   "projects": {
-    "C:\\Quadrimestre 4\\INFO2\\PROJECTE_INFO2-mainb\\PROJECTE_INFO2-main\\FlightLib\\FlightLib.csproj": {
+    "C:\\Users\\Aran\\Desktop\\PROJECTE_INFO_ARREGLAT_2\\FlightLib\\FlightLib.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Quadrimestre 4\\INFO2\\PROJECTE_INFO2-mainb\\PROJECTE_INFO2-main\\FlightLib\\FlightLib.csproj",
+        "projectUniqueName": "C:\\Users\\Aran\\Desktop\\PROJECTE_INFO_ARREGLAT_2\\FlightLib\\FlightLib.csproj",
         "projectName": "FlightLib",
-        "projectPath": "C:\\Quadrimestre 4\\INFO2\\PROJECTE_INFO2-mainb\\PROJECTE_INFO2-main\\FlightLib\\FlightLib.csproj",
+        "projectPath": "C:\\Users\\Aran\\Desktop\\PROJECTE_INFO_ARREGLAT_2\\FlightLib\\FlightLib.csproj",
         "UsingMicrosoftNETSdk": false,
         "frameworks": {
           "net472": {
@@ -20,14 +20,14 @@
         "net472": {}
       }
     },
-    "C:\\Quadrimestre 4\\INFO2\\PROJECTE_INFO2-mainb\\PROJECTE_INFO2-main\\MisForms\\MisForms.csproj": {
+    "C:\\Users\\Aran\\Desktop\\PROJECTE_INFO_ARREGLAT_2\\MisForms\\MisForms.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Quadrimestre 4\\INFO2\\PROJECTE_INFO2-mainb\\PROJECTE_INFO2-main\\MisForms\\MisForms.csproj",
+        "projectUniqueName": "C:\\Users\\Aran\\Desktop\\PROJECTE_INFO_ARREGLAT_2\\MisForms\\MisForms.csproj",
         "projectName": "MisForms",
-        "projectPath": "C:\\Quadrimestre 4\\INFO2\\PROJECTE_INFO2-mainb\\PROJECTE_INFO2-main\\MisForms\\MisForms.csproj",
+        "projectPath": "C:\\Users\\Aran\\Desktop\\PROJECTE_INFO_ARREGLAT_2\\MisForms\\MisForms.csproj",
         "packagesPath": "C:\\Users\\Aran\\.nuget\\packages\\",
-        "outputPath": "C:\\Quadrimestre 4\\INFO2\\PROJECTE_INFO2-mainb\\PROJECTE_INFO2-main\\MisForms\\obj\\",
+        "outputPath": "C:\\Users\\Aran\\Desktop\\PROJECTE_INFO_ARREGLAT_2\\MisForms\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Aran\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -44,8 +44,8 @@
           "net10.0-windows7.0": {
             "targetAlias": "net10.0-windows",
             "projectReferences": {
-              "C:\\Quadrimestre 4\\INFO2\\PROJECTE_INFO2-mainb\\PROJECTE_INFO2-main\\FlightLib\\FlightLib.csproj": {
-                "projectPath": "C:\\Quadrimestre 4\\INFO2\\PROJECTE_INFO2-mainb\\PROJECTE_INFO2-main\\FlightLib\\FlightLib.csproj"
+              "C:\\Users\\Aran\\Desktop\\PROJECTE_INFO_ARREGLAT_2\\FlightLib\\FlightLib.csproj": {
+                "projectPath": "C:\\Users\\Aran\\Desktop\\PROJECTE_INFO_ARREGLAT_2\\FlightLib\\FlightLib.csproj"
               }
             }
           }

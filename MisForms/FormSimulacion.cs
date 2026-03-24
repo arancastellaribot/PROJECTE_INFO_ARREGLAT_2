@@ -71,7 +71,7 @@ namespace MisForms
                               "POSICIÓ ACTUAL: (" + Math.Round(vol.GetCurrentPosition().GetX(), 2) +
                               ", " + Math.Round(vol.GetCurrentPosition().GetY(), 2) + ")";
 
-            MessageBox.Show(missatge, "Detalls del Vol");
+            MessageBox.Show(missatge, "Detalls del Vol");  //pollote
         }
     }
 }

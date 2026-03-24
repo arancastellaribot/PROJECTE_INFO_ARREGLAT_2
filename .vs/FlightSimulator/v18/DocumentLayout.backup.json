@@ -3,36 +3,36 @@
   "WorkspaceRootPath": "C:\\Quadrimestre 4\\INFO2\\PROJECTE_INFO2-mainb\\PROJECTE_INFO2-main\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3E9AEE6B-6B06-41E3-B176-9D786538C478}|MisForms\\MisForms.csproj|c:\\quadrimestre 4\\info2\\projecte_info2-mainb\\projecte_info2-main\\misforms\\formcrearvuelos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E9AEE6B-6B06-41E3-B176-9D786538C478}|MisForms\\MisForms.csproj|solutionrelative:misforms\\formcrearvuelos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E9AEE6B-6B06-41E3-B176-9D786538C478}|MisForms\\MisForms.csproj|c:\\quadrimestre 4\\info2\\projecte_info2-mainb\\projecte_info2-main\\misforms\\formsimulacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E9AEE6B-6B06-41E3-B176-9D786538C478}|MisForms\\MisForms.csproj|solutionrelative:misforms\\formsimulacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3E9AEE6B-6B06-41E3-B176-9D786538C478}|MisForms\\MisForms.csproj|C:\\Quadrimestre 4\\INFO2\\PROJECTE_INFO2-mainb\\PROJECTE_INFO2-main\\misforms\\formsimulacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3E9AEE6B-6B06-41E3-B176-9D786538C478}|MisForms\\MisForms.csproj|solutionrelative:misforms\\formsimulacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E9AEE6B-6B06-41E3-B176-9D786538C478}|MisForms\\MisForms.csproj|c:\\quadrimestre 4\\info2\\projecte_info2-mainb\\projecte_info2-main\\misforms\\formconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3E9AEE6B-6B06-41E3-B176-9D786538C478}|MisForms\\MisForms.csproj|solutionrelative:misforms\\formconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E9AEE6B-6B06-41E3-B176-9D786538C478}|MisForms\\MisForms.csproj|c:\\quadrimestre 4\\info2\\projecte_info2-mainb\\projecte_info2-main\\misforms\\formconfig.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E9AEE6B-6B06-41E3-B176-9D786538C478}|MisForms\\MisForms.csproj|solutionrelative:misforms\\formconfig.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3E9AEE6B-6B06-41E3-B176-9D786538C478}|MisForms\\MisForms.csproj|C:\\Quadrimestre 4\\INFO2\\PROJECTE_INFO2-mainb\\PROJECTE_INFO2-main\\misforms\\formcrearvuelos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3E9AEE6B-6B06-41E3-B176-9D786538C478}|MisForms\\MisForms.csproj|solutionrelative:misforms\\formcrearvuelos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E9AEE6B-6B06-41E3-B176-9D786538C478}|MisForms\\MisForms.csproj|c:\\quadrimestre 4\\info2\\projecte_info2-mainb\\projecte_info2-main\\misforms\\formconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E9AEE6B-6B06-41E3-B176-9D786538C478}|MisForms\\MisForms.csproj|solutionrelative:misforms\\formconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3E9AEE6B-6B06-41E3-B176-9D786538C478}|MisForms\\MisForms.csproj|c:\\quadrimestre 4\\info2\\projecte_info2-mainb\\projecte_info2-main\\misforms\\formsimulacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E9AEE6B-6B06-41E3-B176-9D786538C478}|MisForms\\MisForms.csproj|solutionrelative:misforms\\formsimulacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3E9AEE6B-6B06-41E3-B176-9D786538C478}|MisForms\\MisForms.csproj|c:\\quadrimestre 4\\info2\\projecte_info2-mainb\\projecte_info2-main\\misforms\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E9AEE6B-6B06-41E3-B176-9D786538C478}|MisForms\\MisForms.csproj|solutionrelative:misforms\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E9AEE6B-6B06-41E3-B176-9D786538C478}|MisForms\\MisForms.csproj|C:\\Quadrimestre 4\\INFO2\\PROJECTE_INFO2-mainb\\PROJECTE_INFO2-main\\misforms\\formconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3E9AEE6B-6B06-41E3-B176-9D786538C478}|MisForms\\MisForms.csproj|solutionrelative:misforms\\formconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E9AEE6B-6B06-41E3-B176-9D786538C478}|MisForms\\MisForms.csproj|c:\\quadrimestre 4\\info2\\projecte_info2-mainb\\projecte_info2-main\\misforms\\formconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E9AEE6B-6B06-41E3-B176-9D786538C478}|MisForms\\MisForms.csproj|solutionrelative:misforms\\formconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E9AEE6B-6B06-41E3-B176-9D786538C478}|MisForms\\MisForms.csproj|c:\\quadrimestre 4\\info2\\projecte_info2-mainb\\projecte_info2-main\\misforms\\formcrearvuelos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E9AEE6B-6B06-41E3-B176-9D786538C478}|MisForms\\MisForms.csproj|solutionrelative:misforms\\formcrearvuelos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E9AEE6B-6B06-41E3-B176-9D786538C478}|MisForms\\MisForms.csproj|c:\\quadrimestre 4\\info2\\projecte_info2-mainb\\projecte_info2-main\\misforms\\formconfig.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E9AEE6B-6B06-41E3-B176-9D786538C478}|MisForms\\MisForms.csproj|solutionrelative:misforms\\formconfig.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3E9AEE6B-6B06-41E3-B176-9D786538C478}|MisForms\\MisForms.csproj|C:\\Quadrimestre 4\\INFO2\\PROJECTE_INFO2-mainb\\PROJECTE_INFO2-main\\misforms\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -54,11 +54,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "FormConfig.Designer.cs",
               "DocumentMoniker": "C:\\Quadrimestre 4\\INFO2\\PROJECTE_INFO2-mainb\\PROJECTE_INFO2-main\\MisForms\\FormConfig.Designer.cs",
               "RelativeDocumentMoniker": "MisForms\\FormConfig.Designer.cs",
@@ -71,7 +71,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "FormConfig.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Quadrimestre 4\\INFO2\\PROJECTE_INFO2-mainb\\PROJECTE_INFO2-main\\MisForms\\FormConfig.cs",
               "RelativeDocumentMoniker": "MisForms\\FormConfig.cs",
@@ -83,32 +83,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "FormConfig.cs",
               "DocumentMoniker": "C:\\Quadrimestre 4\\INFO2\\PROJECTE_INFO2-mainb\\PROJECTE_INFO2-main\\MisForms\\FormConfig.cs",
               "RelativeDocumentMoniker": "MisForms\\FormConfig.cs",
               "ToolTip": "C:\\Quadrimestre 4\\INFO2\\PROJECTE_INFO2-mainb\\PROJECTE_INFO2-main\\MisForms\\FormConfig.cs",
               "RelativeToolTip": "MisForms\\FormConfig.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwCgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T12:03:38.816Z"
+              "WhenOpened": "2026-03-22T12:03:38.816Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "FormSimulacion.cs",
               "DocumentMoniker": "C:\\Quadrimestre 4\\INFO2\\PROJECTE_INFO2-mainb\\PROJECTE_INFO2-main\\MisForms\\FormSimulacion.cs",
               "RelativeDocumentMoniker": "MisForms\\FormSimulacion.cs",
               "ToolTip": "C:\\Quadrimestre 4\\INFO2\\PROJECTE_INFO2-mainb\\PROJECTE_INFO2-main\\MisForms\\FormSimulacion.cs",
               "RelativeToolTip": "MisForms\\FormSimulacion.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAEwAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAowEwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-22T10:35:42.175Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "FormSimulacion.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Quadrimestre 4\\INFO2\\PROJECTE_INFO2-mainb\\PROJECTE_INFO2-main\\MisForms\\FormSimulacion.cs",
               "RelativeDocumentMoniker": "MisForms\\FormSimulacion.cs",
@@ -136,10 +137,11 @@
               "Title": "Principal.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Quadrimestre 4\\INFO2\\PROJECTE_INFO2-mainb\\PROJECTE_INFO2-main\\MisForms\\Principal.cs",
               "RelativeDocumentMoniker": "MisForms\\Principal.cs",
-              "ToolTip": "C:\\Quadrimestre 4\\INFO2\\PROJECTE_INFO2-main (1)\\PROJECTE_INFO2-main\\MisForms\\Principal.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\PROJECTE_INFO2-main (1)\\PROJECTE_INFO2-main\\MisForms\\Principal.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Quadrimestre 4\\INFO2\\PROJECTE_INFO2-mainb\\PROJECTE_INFO2-main\\MisForms\\Principal.cs [Dise\u00F1o]",
+              "RelativeToolTip": "MisForms\\Principal.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T09:27:38.604Z"
+              "WhenOpened": "2026-03-17T09:27:38.604Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
@@ -155,20 +157,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "FormCrearVuelos.cs",
               "DocumentMoniker": "C:\\Quadrimestre 4\\INFO2\\PROJECTE_INFO2-mainb\\PROJECTE_INFO2-main\\MisForms\\FormCrearVuelos.cs",
               "RelativeDocumentMoniker": "MisForms\\FormCrearVuelos.cs",
               "ToolTip": "C:\\Quadrimestre 4\\INFO2\\PROJECTE_INFO2-mainb\\PROJECTE_INFO2-main\\MisForms\\FormCrearVuelos.cs",
               "RelativeToolTip": "MisForms\\FormCrearVuelos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-17T09:05:35.253Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "FormCrearVuelos.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Quadrimestre 4\\INFO2\\PROJECTE_INFO2-mainb\\PROJECTE_INFO2-main\\MisForms\\FormCrearVuelos.cs",
               "RelativeDocumentMoniker": "MisForms\\FormCrearVuelos.cs",
@@ -180,7 +182,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "Principal.cs",
               "DocumentMoniker": "C:\\Quadrimestre 4\\INFO2\\PROJECTE_INFO2-mainb\\PROJECTE_INFO2-main\\MisForms\\Principal.cs",
               "RelativeDocumentMoniker": "MisForms\\Principal.cs",
@@ -188,7 +190,8 @@
               "RelativeToolTip": "MisForms\\Principal.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAYwCgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T08:57:11.973Z"
+              "WhenOpened": "2026-03-17T08:57:11.973Z",
+              "EditorCaption": ""
             }
           ]
         }

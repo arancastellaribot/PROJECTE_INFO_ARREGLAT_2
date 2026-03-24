@@ -49,7 +49,7 @@ namespace MisForms
         {
             if (vol1_guardat != null && vol2_guardat != null)
             {
-                FormSimulacion ventanaSim = new FormSimulacion(vol1_guardat, vol2_guardat);
+                FormSimulacion ventanaSim = new FormSimulacion(vol1_guardat, vol2_guardat, distanciaSeguretat, tiempoCiclo);
                 ventanaSim.ShowDialog();
             }
             else { MessageBox.Show("Introdueix els vols primer!"); }

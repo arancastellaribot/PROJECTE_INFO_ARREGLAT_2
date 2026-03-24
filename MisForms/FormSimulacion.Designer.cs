@@ -30,7 +30,7 @@
         {
             components = new System.ComponentModel.Container();
             btnMover = new Button();
-            timer1 = new System.Windows.Forms.Timer(components);
+            timerSimulacio = new System.Windows.Forms.Timer(components);
             SuspendLayout();
             // 
             // btnMover
@@ -42,6 +42,10 @@
             btnMover.Text = "Moure un cicle";
             btnMover.UseVisualStyleBackColor = true;
             btnMover.Click += btnMover_Click;
+            // 
+            // timerSimulacio
+            // 
+            timerSimulacio.Tick += timerSimulacio_Tick;
             // 
             // FormSimulacion
             // 
@@ -65,6 +69,6 @@
         #endregion
 
         private Button btnMover;
-        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Timer timerSimulacio;
     }
 }

@@ -13,11 +13,15 @@ namespace MisForms
     {
         FlightPlan v1;
         FlightPlan v2;
-        public FormSimulacion(FlightPlan vol1, FlightPlan vol2)
+        double distSeguretat;
+        double tempsCiclo;
+        public FormSimulacion(FlightPlan vol1, FlightPlan vol2, double dSeg, double tCiclo)
         {
             InitializeComponent();
             this.v1 = vol1;
             this.v2 = vol2;
+            this.distSeguretat = dSeg;
+            this.tempsCiclo = tCiclo;
         }
 
         private void FormSimulacion_Paint(object sender, PaintEventArgs e)
@@ -45,6 +49,22 @@ namespace MisForms
             // Alliberem els llapis per no gastar memòria
             penBlau.Dispose();
             penVermell.Dispose();
+            double distanciaActual = v1.Distancia(v2);
+
+            Brush colorAvions = Brushes.Blue; // Color normal
+
+            if (distanciaActual <= this.distSeguretat)
+            {
+                // Si hi ha conflicte, canviem el color a Taronja!
+                colorAvions = Brushes.Orange;
+            }
+
+            // 3. DIBUIXEM ELS AVIONS
+            e.Graphics.FillEllipse(colorAvions, (float)v1.GetCurrentPosition().GetX(), (float)v1.GetCurrentPosition().GetY(), 10, 10);
+
+            // Per diferenciar-los una mica, podem mantenir el v2 amb un pinzell diferent si vols, 
+            // o fer que tots dos siguin taronja en cas de perill.
+            e.Graphics.FillEllipse(colorAvions, (float)v2.GetCurrentPosition().GetX(), (float)v2.GetCurrentPosition().GetY(), 10, 10);
         }
 
 
@@ -57,6 +77,8 @@ namespace MisForms
 
             // Refresquem el formulari per veure el moviment (Fase 3 i 4)
             this.Invalidate();
+
+            timerSimulacio.Start();
         }
 
         private void FormSimulacion_Load_1(object sender, EventArgs e)
@@ -90,7 +112,21 @@ namespace MisForms
                               "POSICIÓ ACTUAL: (" + Math.Round(vol.GetCurrentPosition().GetX(), 2) +
                               ", " + Math.Round(vol.GetCurrentPosition().GetY(), 2) + ")";
 
-            MessageBox.Show(missatge, "Detalls del Vol");   
+            MessageBox.Show(missatge, "Detalls del Vol");
+        }
+
+        private void timerSimulacio_Tick(object sender, EventArgs e)
+        {
+            // Movem els avions amb el temps de cicle que hem configurat
+            v1.Mover(this.tempsCiclo);
+            v2.Mover(this.tempsCiclo);
+
+            // Obliguem a repintar (això cridarà al mètode Paint)
+            this.Invalidate();
+
+            // Si tots dos han arribat, parem el rellotge
+            if (v1.AvionDestino() && v2.AvionDestino())
+                timerSimulacio.Stop();
         }
     }
 }

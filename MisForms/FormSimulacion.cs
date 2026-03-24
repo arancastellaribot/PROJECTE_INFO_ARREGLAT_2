@@ -22,10 +22,29 @@ namespace MisForms
 
         private void FormSimulacion_Paint(object sender, PaintEventArgs e)
         {
-            // Dibuixem els avions com a petits cercles
-            // Fem un "cast" a (float) perquè les funcions de dibuix ho necessiten
+            // 1. CREEM ELS LLAPIS (Pens)
+            // El '2' és el gruix de la línia. Pots posar-hi '1' si la vols més fina.
+            Pen penBlau = new Pen(Color.LightBlue, 2);
+            Pen penVermell = new Pen(Color.MistyRose, 2);
+
+            // 2. DIBUIXEM LA TRAJECTÒRIA DEL VOL 1 (Blau)
+            e.Graphics.DrawLine(penBlau,
+                (float)v1.GetInitialPosition().GetX(), (float)v1.GetInitialPosition().GetY(),
+                (float)v1.GetFinalPostion().GetX(), (float)v1.GetFinalPostion().GetY());
+
+            // 3. DIBUIXEM LA TRAJECTÒRIA DEL VOL 2 (Vermell)
+            e.Graphics.DrawLine(penVermell,
+                (float)v2.GetInitialPosition().GetX(), (float)v2.GetInitialPosition().GetY(),
+                (float)v2.GetFinalPostion().GetX(), (float)v2.GetFinalPostion().GetY());
+
+            // 4. DIBUIXEM ELS AVIONS (el codi que ja tenies)
+            // Els dibuixem al final perquè el cercle es vegi per sobre de la línia
             e.Graphics.FillEllipse(Brushes.Blue, (float)v1.GetCurrentPosition().GetX(), (float)v1.GetCurrentPosition().GetY(), 10, 10);
             e.Graphics.FillEllipse(Brushes.Red, (float)v2.GetCurrentPosition().GetX(), (float)v2.GetCurrentPosition().GetY(), 10, 10);
+
+            // Alliberem els llapis per no gastar memòria
+            penBlau.Dispose();
+            penVermell.Dispose();
         }
 
 
@@ -71,7 +90,7 @@ namespace MisForms
                               "POSICIÓ ACTUAL: (" + Math.Round(vol.GetCurrentPosition().GetX(), 2) +
                               ", " + Math.Round(vol.GetCurrentPosition().GetY(), 2) + ")";
 
-            MessageBox.Show(missatge, "Detalls del Vol");  //pollote
+            MessageBox.Show(missatge, "Detalls del Vol");   
         }
     }
 }

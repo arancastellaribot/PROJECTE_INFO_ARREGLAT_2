@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{3E9AEE6B-6B06-41E3-B176-9D786538C478}|MisForms\\MisForms.csproj|solutionrelative:misforms\\formsimulacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E9AEE6B-6B06-41E3-B176-9D786538C478}|MisForms\\MisForms.csproj|c:\\users\\aran\\desktop\\projecte_info_arreglat_2\\misforms\\formsimulacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{3E9AEE6B-6B06-41E3-B176-9D786538C478}|MisForms\\MisForms.csproj|C:\\Users\\Aran\\Desktop\\PROJECTE_INFO_ARREGLAT_2\\misforms\\formsimulacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3E9AEE6B-6B06-41E3-B176-9D786538C478}|MisForms\\MisForms.csproj|solutionrelative:misforms\\formsimulacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -99,7 +99,7 @@
               "RelativeDocumentMoniker": "MisForms\\FormSimulacion.cs",
               "ToolTip": "C:\\Users\\Aran\\Desktop\\PROJECTE_INFO_ARREGLAT_2\\MisForms\\FormSimulacion.cs",
               "RelativeToolTip": "MisForms\\FormSimulacion.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAowEkAAABEAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA1wC8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-22T10:35:42.175Z",
               "EditorCaption": ""
@@ -171,10 +171,11 @@
               "Title": "FormCrearVuelos.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Aran\\Desktop\\PROJECTE_INFO_ARREGLAT_2\\MisForms\\FormCrearVuelos.cs",
               "RelativeDocumentMoniker": "MisForms\\FormCrearVuelos.cs",
-              "ToolTip": "C:\\Quadrimestre 4\\INFO2\\PROJECTE_INFO2-mainb\\PROJECTE_INFO2-main\\MisForms\\FormCrearVuelos.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\..\\Quadrimestre 4\\INFO2\\PROJECTE_INFO2-mainb\\PROJECTE_INFO2-main\\MisForms\\FormCrearVuelos.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\Aran\\Desktop\\PROJECTE_INFO_ARREGLAT_2\\MisForms\\FormCrearVuelos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "MisForms\\FormCrearVuelos.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T09:05:11.747Z"
+              "WhenOpened": "2026-03-17T09:05:11.747Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",

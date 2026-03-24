@@ -68,3 +68,27 @@ C:\Quadrimestre 4\INFO2\PROJECTE_INFO2-mainb\PROJECTE_INFO2-main\MisForms\obj\De
 C:\Quadrimestre 4\INFO2\PROJECTE_INFO2-mainb\PROJECTE_INFO2-main\MisForms\obj\Debug\net10.0-windows\MisForms.pdb
 C:\Quadrimestre 4\INFO2\PROJECTE_INFO2-mainb\PROJECTE_INFO2-main\MisForms\obj\Debug\net10.0-windows\MisForms.genruntimeconfig.cache
 C:\Quadrimestre 4\INFO2\PROJECTE_INFO2-mainb\PROJECTE_INFO2-main\MisForms\obj\Debug\net10.0-windows\ref\MisForms.dll
+C:\Users\Aran\Desktop\PROJECTE_INFO_ARREGLAT_2\MisForms\bin\Debug\net10.0-windows\MisForms.exe
+C:\Users\Aran\Desktop\PROJECTE_INFO_ARREGLAT_2\MisForms\bin\Debug\net10.0-windows\MisForms.deps.json
+C:\Users\Aran\Desktop\PROJECTE_INFO_ARREGLAT_2\MisForms\bin\Debug\net10.0-windows\MisForms.runtimeconfig.json
+C:\Users\Aran\Desktop\PROJECTE_INFO_ARREGLAT_2\MisForms\bin\Debug\net10.0-windows\MisForms.dll
+C:\Users\Aran\Desktop\PROJECTE_INFO_ARREGLAT_2\MisForms\bin\Debug\net10.0-windows\MisForms.pdb
+C:\Users\Aran\Desktop\PROJECTE_INFO_ARREGLAT_2\MisForms\bin\Debug\net10.0-windows\FlightLib.dll
+C:\Users\Aran\Desktop\PROJECTE_INFO_ARREGLAT_2\MisForms\bin\Debug\net10.0-windows\FlightLib.pdb
+C:\Users\Aran\Desktop\PROJECTE_INFO_ARREGLAT_2\MisForms\obj\Debug\net10.0-windows\MisForms.csproj.AssemblyReference.cache
+C:\Users\Aran\Desktop\PROJECTE_INFO_ARREGLAT_2\MisForms\obj\Debug\net10.0-windows\MisForms.FormConfig.resources
+C:\Users\Aran\Desktop\PROJECTE_INFO_ARREGLAT_2\MisForms\obj\Debug\net10.0-windows\MisForms.FormCrearVuelos.resources
+C:\Users\Aran\Desktop\PROJECTE_INFO_ARREGLAT_2\MisForms\obj\Debug\net10.0-windows\MisForms.FormSimulacion.resources
+C:\Users\Aran\Desktop\PROJECTE_INFO_ARREGLAT_2\MisForms\obj\Debug\net10.0-windows\MisForms.Principal.resources
+C:\Users\Aran\Desktop\PROJECTE_INFO_ARREGLAT_2\MisForms\obj\Debug\net10.0-windows\MisForms.csproj.GenerateResource.cache
+C:\Users\Aran\Desktop\PROJECTE_INFO_ARREGLAT_2\MisForms\obj\Debug\net10.0-windows\MisForms.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aran\Desktop\PROJECTE_INFO_ARREGLAT_2\MisForms\obj\Debug\net10.0-windows\MisForms.AssemblyInfoInputs.cache
+C:\Users\Aran\Desktop\PROJECTE_INFO_ARREGLAT_2\MisForms\obj\Debug\net10.0-windows\MisForms.AssemblyInfo.cs
+C:\Users\Aran\Desktop\PROJECTE_INFO_ARREGLAT_2\MisForms\obj\Debug\net10.0-windows\MisForms.csproj.CoreCompileInputs.cache
+C:\Users\Aran\Desktop\PROJECTE_INFO_ARREGLAT_2\MisForms\obj\Debug\net10.0-windows\MisForms.sourcelink.json
+C:\Users\Aran\Desktop\PROJECTE_INFO_ARREGLAT_2\MisForms\obj\Debug\net10.0-windows\MisForms.csproj.Up2Date
+C:\Users\Aran\Desktop\PROJECTE_INFO_ARREGLAT_2\MisForms\obj\Debug\net10.0-windows\MisForms.dll
+C:\Users\Aran\Desktop\PROJECTE_INFO_ARREGLAT_2\MisForms\obj\Debug\net10.0-windows\refint\MisForms.dll
+C:\Users\Aran\Desktop\PROJECTE_INFO_ARREGLAT_2\MisForms\obj\Debug\net10.0-windows\MisForms.pdb
+C:\Users\Aran\Desktop\PROJECTE_INFO_ARREGLAT_2\MisForms\obj\Debug\net10.0-windows\MisForms.genruntimeconfig.cache
+C:\Users\Aran\Desktop\PROJECTE_INFO_ARREGLAT_2\MisForms\obj\Debug\net10.0-windows\ref\MisForms.dll

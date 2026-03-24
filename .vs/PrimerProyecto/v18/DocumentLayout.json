@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mique\\OneDrive\\Escriptori\\UNI\\INFO2\\PROJECTE_INFO2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3B53FCD9-7A68-42EF-A9DA-B0628F94A07E}|FlightLib\\FlightLib.csproj|C:\\Users\\mique\\OneDrive\\Escriptori\\UNI\\INFO2\\PROJECTE_INFO2\\flightlib\\flightplanlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B53FCD9-7A68-42EF-A9DA-B0628F94A07E}|FlightLib\\FlightLib.csproj|solutionrelative:flightlib\\flightplanlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A87A27D-F5E9-4F8E-B229-683005A87FF1}|SimulatorConsole\\SimulatorConsole.csproj|c:\\users\\mique\\onedrive\\escriptori\\uni\\info2\\projecte_info2\\simulatorconsole\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A87A27D-F5E9-4F8E-B229-683005A87FF1}|SimulatorConsole\\SimulatorConsole.csproj|solutionrelative:simulatorconsole\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B53FCD9-7A68-42EF-A9DA-B0628F94A07E}|FlightLib\\FlightLib.csproj|C:\\Users\\mique\\OneDrive\\Escriptori\\UNI\\INFO2\\PROJECTE_INFO2\\flightlib\\flightplan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B53FCD9-7A68-42EF-A9DA-B0628F94A07E}|FlightLib\\FlightLib.csproj|solutionrelative:flightlib\\flightplan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B53FCD9-7A68-42EF-A9DA-B0628F94A07E}|FlightLib\\FlightLib.csproj|C:\\Users\\mique\\OneDrive\\Escriptori\\UNI\\INFO2\\PROJECTE_INFO2\\flightlib\\position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B53FCD9-7A68-42EF-A9DA-B0628F94A07E}|FlightLib\\FlightLib.csproj|solutionrelative:flightlib\\position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FlightPlanList.cs",
+              "DocumentMoniker": "C:\\Users\\mique\\OneDrive\\Escriptori\\UNI\\INFO2\\PROJECTE_INFO2\\FlightLib\\FlightPlanList.cs",
+              "RelativeDocumentMoniker": "FlightLib\\FlightPlanList.cs",
+              "ToolTip": "C:\\Users\\mique\\OneDrive\\Escriptori\\UNI\\INFO2\\PROJECTE_INFO2\\FlightLib\\FlightPlanList.cs",
+              "RelativeToolTip": "FlightLib\\FlightPlanList.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAYwEIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T10:19:31.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FlightPlan.cs",
+              "DocumentMoniker": "C:\\Users\\mique\\OneDrive\\Escriptori\\UNI\\INFO2\\PROJECTE_INFO2\\FlightLib\\FlightPlan.cs",
+              "RelativeDocumentMoniker": "FlightLib\\FlightPlan.cs",
+              "ToolTip": "C:\\Users\\mique\\OneDrive\\Escriptori\\UNI\\INFO2\\PROJECTE_INFO2\\FlightLib\\FlightPlan.cs",
+              "RelativeToolTip": "FlightLib\\FlightPlan.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T11:35:33.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Position.cs",
+              "DocumentMoniker": "C:\\Users\\mique\\OneDrive\\Escriptori\\UNI\\INFO2\\PROJECTE_INFO2\\FlightLib\\Position.cs",
+              "RelativeDocumentMoniker": "FlightLib\\Position.cs",
+              "ToolTip": "C:\\Users\\mique\\OneDrive\\Escriptori\\UNI\\INFO2\\PROJECTE_INFO2\\FlightLib\\Position.cs",
+              "RelativeToolTip": "FlightLib\\Position.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAmwCEAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T11:35:33.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mique\\OneDrive\\Escriptori\\UNI\\INFO2\\PROJECTE_INFO2\\SimulatorConsole\\Program.cs",
+              "RelativeDocumentMoniker": "SimulatorConsole\\Program.cs",
+              "ToolTip": "C:\\Users\\mique\\OneDrive\\Escriptori\\UNI\\INFO2\\PROJECTE_INFO2\\SimulatorConsole\\Program.cs",
+              "RelativeToolTip": "SimulatorConsole\\Program.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAQwEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T11:35:33.314Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

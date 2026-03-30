@@ -84,6 +84,27 @@ namespace MisForms
 
             // Refresquem el formulari per veure el moviment
             this.Invalidate();
+            // ---------------------------------------------------------
+            // NOVA LÒGICA FASE 10.1: ALARMA DE SEPARACIÓ
+            // ---------------------------------------------------------
+            double distanciaActual = v1.Distancia(v2);
+
+            if (distanciaActual < this.distSeguretat)
+            {
+                {
+                    timerSimulacio.Stop(); // Parem el rellotge temporalment
+
+                    MessageBox.Show("ALERTA: Pèrdua de separació detectada!\nDistància actual:" + Math.Round(distanciaActual, 2) + "unitats.",
+                                    "Alarma de Seguretat", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+            }
+            else
+            {
+                // Si s'allunyen i tornen a estar a una distància segura, "baixem" la bandera 
+                // per si es tornen a creuar en el futur
+                if (v1.AvionDestino() && v2.AvionDestino())
+                    timerSimulacio.Stop();
+            }
         }
 
         private void FormSimulacion_Load_1(object sender, EventArgs e)
@@ -136,6 +157,47 @@ namespace MisForms
 
         private void button1_Click(object sender, EventArgs e)
         {
+            // 1. Comprovem si hi haurà conflicte ABANS de començar
+            if (v1.PrevisioConflicte(v2, this.distSeguretat))
+            {
+                // 2. Preguntem a l'usuari amb un MessageBox de Sí o No
+                DialogResult resposta = MessageBox.Show(
+                    "S'ha detectat un conflicte futur!\n\nVols que el programa resolgui el conflicte automàticament modificant la velocitat d'un avió?",
+                    "Alerta ATC - Resolució",
+                    MessageBoxButtons.YesNo,
+                    MessageBoxIcon.Warning);
+
+                // 3. Si l'usuari clica "Sí"
+                if (resposta == DialogResult.Yes)
+                {
+                    double novaVelocitat = v2.GetVelocidad();
+
+                    // ESTRATÈGIA A: Provem de frenar el Vol 2 (fins a un límit de 50 km/h)
+                    while (v1.PrevisioConflicte(v2, this.distSeguretat) && novaVelocitat > 50)
+                    {
+                        novaVelocitat -= 10; // Reduïm de 10 en 10
+                        v2.SetVelocidad(novaVelocitat);
+                    }
+
+                    // ESTRATÈGIA B: Si frenant al màxim encara xoquen, provem d'accelerar-lo
+                    if (v1.PrevisioConflicte(v2, this.distSeguretat))
+                    {
+                        novaVelocitat = v2.GetVelocidad(); // Tornem a la velocitat on ens havíem quedat
+                        while (v1.PrevisioConflicte(v2, this.distSeguretat) && novaVelocitat < 1500)
+                        {
+                            novaVelocitat += 10; // Augmentem de 10 en 10
+                            v2.SetVelocidad(novaVelocitat);
+                        }
+                    }
+
+                    // Avisem a l'usuari de l'ajust que hem fet
+                    MessageBox.Show($"Conflicte resolt!\n\nS'ha ajustat la velocitat del vol {v2.GetId()} a {novaVelocitat} km/h per evitar la col·lisió.",
+                        "Resolució Aplicada", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                // Si l'usuari clica "No", el programa simplement salta aquest 'if' i xocaran (tal com demana l'enunciat).
+            }
+
+            // 4. Finalment, engeguem el rellotge de la simulació amb les noves condicions
             timerSimulacio.Start();
         }
 
@@ -154,6 +216,25 @@ namespace MisForms
             // Usem .Show() i NO .ShowDialog() perquè volem que les dues finestres 
             // estiguin obertes a la vegada. Així pots veure el mapa i la taula alhora!
             finestraDades.Show();
+        }
+
+        private void btnPrediccio_Click(object sender, EventArgs e)
+        {
+            // 1. Cridem a la funció matemàtica que acabes de crear a la teva llibreria.
+            // Li passem el segon avió (v2) i la distància de seguretat del formulari.
+            bool hiHauraConflicte = v1.PrevisioConflicte(v2, this.distSeguretat);
+
+            // 2. Mostrem el resultat a l'usuari
+            if (hiHauraConflicte)
+            {
+                MessageBox.Show("PREDICCIÓ: S'ha detectat un conflicte futur en la trajectòria actual.\n\nEls avions passaran a una distància inferior a la de seguretat.",
+                    "Alerta de Predicció", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+            else
+            {
+                MessageBox.Show("PREDICCIÓ: Trajectòria neta.\n\nNo es preveuen conflictes entre aquests dos vols.",
+                    "Predicció Segura", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
         }
     }
 }

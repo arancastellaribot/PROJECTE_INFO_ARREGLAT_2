@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MisForms")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1175764a05d321c8221e0b0fe71b077c9eba289e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+77c69f4e78ef8d19b2cc05b390f1febd488c9e49")]
 [assembly: System.Reflection.AssemblyProductAttribute("MisForms")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MisForms")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

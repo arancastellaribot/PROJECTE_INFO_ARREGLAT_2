@@ -125,6 +125,64 @@ namespace FlightLib
             Console.WriteLine("Hi ha conflicte entre el vol {0} i el vol {1}");
             return resultado;
         }
+        public bool PrevisioConflicte(FlightPlan b, double distanciaSeguretat)
+        {
+            // 1. Calculem el vector de velocitat de l'avió A (this)
+            double dxA = this.GetFinalPostion().GetX() - this.GetCurrentPosition().GetX();
+            double dyA = this.GetFinalPostion().GetY() - this.GetCurrentPosition().GetY();
+            double distTotalA = Math.Sqrt(dxA * dxA + dyA * dyA);
+
+            double vxA = 0, vyA = 0, tEndA = 0;
+            if (distTotalA > 0)
+            {
+                vxA = (this.velocidad / 60.0) * (dxA / distTotalA);
+                vyA = (this.velocidad / 60.0) * (dyA / distTotalA);
+                tEndA = distTotalA / (this.velocidad / 60.0); // Minuts fins arribar
+            }
+
+            // 2. Calculem el vector de velocitat de l'avió B (b)
+            double dxB = b.GetFinalPostion().GetX() - b.GetCurrentPosition().GetX();
+            double dyB = b.GetFinalPostion().GetY() - b.GetCurrentPosition().GetY();
+            double distTotalB = Math.Sqrt(dxB * dxB + dyB * dyB);
+
+            double vxB = 0, vyB = 0, tEndB = 0;
+            if (distTotalB > 0)
+            {
+                vxB = (b.velocidad / 60.0) * (dxB / distTotalB);
+                vyB = (b.velocidad / 60.0) * (dyB / distTotalB);
+                tEndB = distTotalB / (b.velocidad / 60.0); // Minuts fins arribar
+            }
+
+            // 3. Diferències inicials de posició i velocitat
+            double deltaX = this.GetCurrentPosition().GetX() - b.GetCurrentPosition().GetX();
+            double deltaY = this.GetCurrentPosition().GetY() - b.GetCurrentPosition().GetY();
+            double deltaVx = vxA - vxB;
+            double deltaVy = vyA - vyB;
+
+            // 4. Ecuació quadràtica de la distància al quadrat: D^2(t) = a*t^2 + b*t + c
+            double a = (deltaVx * deltaVx) + (deltaVy * deltaVy);
+            double coef_b = 2 * ((deltaX * deltaVx) + (deltaY * deltaVy));
+            double c = (deltaX * deltaX) + (deltaY * deltaY);
+
+            // Si 'a' és 0, van exactament a la mateixa velocitat i direcció
+            if (a == 0) return Math.Sqrt(c) < distanciaSeguretat;
+
+            // 5. El moment de mínima distància ocorre en tMin (Vèrtex de la paràbola)
+            double tMin = -coef_b / (2 * a);
+
+            // Si tMin és negatiu, vol dir que ja s'estan allunyant ara mateix
+            if (tMin < 0) tMin = 0;
+
+            // Limitem tMin al temps en què tots dos segueixen volant
+            double tMax = Math.Min(tEndA, tEndB);
+            if (tMin > tMax) tMin = tMax;
+
+            // 6. Calculem la distància mínima futura al quadrat
+            double distMinimaCuadrada = a * (tMin * tMin) + coef_b * tMin + c;
+
+            // Retorna TRUE si la distància mínima serà inferior a la de seguretat
+            return distMinimaCuadrada < (distanciaSeguretat * distanciaSeguretat);
+        }
         public void EscribeConsola()
         // escribe en consola los datos del plan de vuelo
         {

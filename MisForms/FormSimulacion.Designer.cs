@@ -34,6 +34,7 @@
             button1 = new Button();
             button2 = new Button();
             btnVeureDades = new Button();
+            btnPrediccio = new Button();
             SuspendLayout();
             // 
             // btnMover
@@ -96,12 +97,26 @@
             btnVeureDades.UseVisualStyleBackColor = false;
             btnVeureDades.Click += btnVeureDades_Click;
             // 
+            // btnPrediccio
+            // 
+            btnPrediccio.BackColor = Color.Navy;
+            btnPrediccio.FlatStyle = FlatStyle.Flat;
+            btnPrediccio.ForeColor = Color.White;
+            btnPrediccio.Location = new Point(562, 245);
+            btnPrediccio.Name = "btnPrediccio";
+            btnPrediccio.Size = new Size(172, 58);
+            btnPrediccio.TabIndex = 4;
+            btnPrediccio.Text = "Predicció de conflicte";
+            btnPrediccio.UseVisualStyleBackColor = false;
+            btnPrediccio.Click += btnPrediccio_Click;
+            // 
             // FormSimulacion
             // 
             AutoScaleDimensions = new SizeF(10F, 23F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ButtonFace;
             ClientSize = new Size(800, 414);
+            Controls.Add(btnPrediccio);
             Controls.Add(btnVeureDades);
             Controls.Add(button2);
             Controls.Add(button1);
@@ -128,5 +143,6 @@
         private Button button1;
         private Button button2;
         private Button btnVeureDades;
+        private Button btnPrediccio;
     }
 }

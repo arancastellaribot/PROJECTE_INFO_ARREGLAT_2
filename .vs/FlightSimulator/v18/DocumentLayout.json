@@ -3,28 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\mique\\OneDrive\\Escriptori\\UNI\\INFO2\\PROJECTE_INFO_2\\PROJECTE_INFO_ARREGLAT_2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3E9AEE6B-6B06-41E3-B176-9D786538C478}|MisForms\\MisForms.csproj|c:\\users\\mique\\onedrive\\escriptori\\uni\\info2\\projecte_info_2\\projecte_info_arreglat_2\\misforms\\formdistancia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3E9AEE6B-6B06-41E3-B176-9D786538C478}|MisForms\\MisForms.csproj|solutionrelative:misforms\\formdistancia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{3E9AEE6B-6B06-41E3-B176-9D786538C478}|MisForms\\MisForms.csproj|c:\\users\\mique\\onedrive\\escriptori\\uni\\info2\\projecte_info_2\\projecte_info_arreglat_2\\misforms\\formsimulacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E9AEE6B-6B06-41E3-B176-9D786538C478}|MisForms\\MisForms.csproj|solutionrelative:misforms\\formsimulacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E9AEE6B-6B06-41E3-B176-9D786538C478}|MisForms\\MisForms.csproj|c:\\users\\mique\\onedrive\\escriptori\\uni\\info2\\projecte_info_2\\projecte_info_arreglat_2\\misforms\\formdistancia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E9AEE6B-6B06-41E3-B176-9D786538C478}|MisForms\\MisForms.csproj|solutionrelative:misforms\\formdistancia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E9AEE6B-6B06-41E3-B176-9D786538C478}|MisForms\\MisForms.csproj|c:\\users\\mique\\onedrive\\escriptori\\uni\\info2\\projecte_info_2\\projecte_info_arreglat_2\\misforms\\formdades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E9AEE6B-6B06-41E3-B176-9D786538C478}|MisForms\\MisForms.csproj|solutionrelative:misforms\\formdades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E9AEE6B-6B06-41E3-B176-9D786538C478}|MisForms\\MisForms.csproj|C:\\Users\\mique\\OneDrive\\Escriptori\\UNI\\INFO2\\PROJECTE_INFO_2\\PROJECTE_INFO_ARREGLAT_2\\misforms\\formdades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3E9AEE6B-6B06-41E3-B176-9D786538C478}|MisForms\\MisForms.csproj|solutionrelative:misforms\\formdades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E9AEE6B-6B06-41E3-B176-9D786538C478}|MisForms\\MisForms.csproj|c:\\users\\mique\\onedrive\\escriptori\\uni\\info2\\projecte_info_2\\projecte_info_arreglat_2\\misforms\\formsimulacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{3E9AEE6B-6B06-41E3-B176-9D786538C478}|MisForms\\MisForms.csproj|C:\\Users\\mique\\OneDrive\\Escriptori\\UNI\\INFO2\\PROJECTE_INFO_2\\PROJECTE_INFO_ARREGLAT_2\\misforms\\formsimulacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3E9AEE6B-6B06-41E3-B176-9D786538C478}|MisForms\\MisForms.csproj|solutionrelative:misforms\\formsimulacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E9AEE6B-6B06-41E3-B176-9D786538C478}|MisForms\\MisForms.csproj|c:\\users\\mique\\onedrive\\escriptori\\uni\\info2\\projecte_info_2\\projecte_info_arreglat_2\\misforms\\formsimulacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E9AEE6B-6B06-41E3-B176-9D786538C478}|MisForms\\MisForms.csproj|solutionrelative:misforms\\formsimulacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3B53FCD9-7A68-42EF-A9DA-B0628F94A07E}|FlightLib\\FlightLib.csproj|c:\\users\\mique\\onedrive\\escriptori\\uni\\info2\\projecte_info_2\\projecte_info_arreglat_2\\flightlib\\flightplan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B53FCD9-7A68-42EF-A9DA-B0628F94A07E}|FlightLib\\FlightLib.csproj|solutionrelative:flightlib\\flightplan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B53FCD9-7A68-42EF-A9DA-B0628F94A07E}|FlightLib\\FlightLib.csproj|c:\\users\\mique\\onedrive\\escriptori\\uni\\info2\\projecte_info_2\\projecte_info_arreglat_2\\flightlib\\position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B53FCD9-7A68-42EF-A9DA-B0628F94A07E}|FlightLib\\FlightLib.csproj|solutionrelative:flightlib\\position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B53FCD9-7A68-42EF-A9DA-B0628F94A07E}|FlightLib\\FlightLib.csproj|c:\\users\\mique\\onedrive\\escriptori\\uni\\info2\\projecte_info_2\\projecte_info_arreglat_2\\flightlib\\flightplanlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B53FCD9-7A68-42EF-A9DA-B0628F94A07E}|FlightLib\\FlightLib.csproj|solutionrelative:flightlib\\flightplanlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3E9AEE6B-6B06-41E3-B176-9D786538C478}|MisForms\\MisForms.csproj|C:\\Users\\mique\\OneDrive\\Escriptori\\UNI\\INFO2\\PROJECTE_INFO_2\\PROJECTE_INFO_ARREGLAT_2\\misforms\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -38,85 +34,75 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FormDistancia.cs",
-              "DocumentMoniker": "C:\\Users\\mique\\OneDrive\\Escriptori\\UNI\\INFO2\\PROJECTE_INFO_2\\PROJECTE_INFO_ARREGLAT_2\\MisForms\\FormDistancia.cs",
-              "RelativeDocumentMoniker": "MisForms\\FormDistancia.cs",
-              "ToolTip": "C:\\Users\\mique\\OneDrive\\Escriptori\\UNI\\INFO2\\PROJECTE_INFO_2\\PROJECTE_INFO_ARREGLAT_2\\MisForms\\FormDistancia.cs",
-              "RelativeToolTip": "MisForms\\FormDistancia.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "FlightPlan.cs",
+              "DocumentMoniker": "C:\\Users\\mique\\OneDrive\\Escriptori\\UNI\\INFO2\\PROJECTE_INFO_2\\PROJECTE_INFO_ARREGLAT_2\\FlightLib\\FlightPlan.cs",
+              "RelativeDocumentMoniker": "FlightLib\\FlightPlan.cs",
+              "ToolTip": "C:\\Users\\mique\\OneDrive\\Escriptori\\UNI\\INFO2\\PROJECTE_INFO_2\\PROJECTE_INFO_ARREGLAT_2\\FlightLib\\FlightPlan.cs",
+              "RelativeToolTip": "FlightLib\\FlightPlan.cs",
+              "ViewState": "AgIAAK0AAAAAAAAAAAAcwLgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-30T15:47:10.397Z",
+              "WhenOpened": "2026-03-30T16:12:29.046Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FormDistancia.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\mique\\OneDrive\\Escriptori\\UNI\\INFO2\\PROJECTE_INFO_2\\PROJECTE_INFO_ARREGLAT_2\\MisForms\\FormDistancia.cs",
-              "RelativeDocumentMoniker": "MisForms\\FormDistancia.cs",
-              "ToolTip": "C:\\Users\\mique\\OneDrive\\Escriptori\\UNI\\INFO2\\PROJECTE_INFO_2\\PROJECTE_INFO_ARREGLAT_2\\MisForms\\FormDistancia.cs [Design]",
-              "RelativeToolTip": "MisForms\\FormDistancia.cs [Design]",
+              "DocumentIndex": 3,
+              "Title": "Position.cs",
+              "DocumentMoniker": "C:\\Users\\mique\\OneDrive\\Escriptori\\UNI\\INFO2\\PROJECTE_INFO_2\\PROJECTE_INFO_ARREGLAT_2\\FlightLib\\Position.cs",
+              "RelativeDocumentMoniker": "FlightLib\\Position.cs",
+              "ToolTip": "C:\\Users\\mique\\OneDrive\\Escriptori\\UNI\\INFO2\\PROJECTE_INFO_2\\PROJECTE_INFO_ARREGLAT_2\\FlightLib\\Position.cs",
+              "RelativeToolTip": "FlightLib\\Position.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-30T15:45:16.562Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-03-30T16:13:01.039Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
+              "Title": "FlightPlanList.cs",
+              "DocumentMoniker": "C:\\Users\\mique\\OneDrive\\Escriptori\\UNI\\INFO2\\PROJECTE_INFO_2\\PROJECTE_INFO_ARREGLAT_2\\FlightLib\\FlightPlanList.cs",
+              "RelativeDocumentMoniker": "FlightLib\\FlightPlanList.cs",
+              "ToolTip": "C:\\Users\\mique\\OneDrive\\Escriptori\\UNI\\INFO2\\PROJECTE_INFO_2\\PROJECTE_INFO_ARREGLAT_2\\FlightLib\\FlightPlanList.cs",
+              "RelativeToolTip": "FlightLib\\FlightPlanList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T16:12:48.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Principal.cs [Design]",
               "DocumentMoniker": "C:\\Users\\mique\\OneDrive\\Escriptori\\UNI\\INFO2\\PROJECTE_INFO_2\\PROJECTE_INFO_ARREGLAT_2\\MisForms\\Principal.cs",
               "RelativeDocumentMoniker": "MisForms\\Principal.cs",
               "ToolTip": "C:\\Users\\mique\\OneDrive\\Escriptori\\UNI\\INFO2\\PROJECTE_INFO_2\\PROJECTE_INFO_ARREGLAT_2\\MisForms\\Principal.cs [Design]",
               "RelativeToolTip": "MisForms\\Principal.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-30T11:26:13.028Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FormDades.cs",
-              "DocumentMoniker": "C:\\Users\\mique\\OneDrive\\Escriptori\\UNI\\INFO2\\PROJECTE_INFO_2\\PROJECTE_INFO_ARREGLAT_2\\MisForms\\FormDades.cs",
-              "RelativeDocumentMoniker": "MisForms\\FormDades.cs",
-              "ToolTip": "C:\\Users\\mique\\OneDrive\\Escriptori\\UNI\\INFO2\\PROJECTE_INFO_2\\PROJECTE_INFO_ARREGLAT_2\\MisForms\\FormDades.cs",
-              "RelativeToolTip": "MisForms\\FormDades.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAD4vzUAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-30T11:13:36.043Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FormDades.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\mique\\OneDrive\\Escriptori\\UNI\\INFO2\\PROJECTE_INFO_2\\PROJECTE_INFO_ARREGLAT_2\\MisForms\\FormDades.cs",
-              "RelativeDocumentMoniker": "MisForms\\FormDades.cs",
-              "ToolTip": "C:\\Users\\mique\\OneDrive\\Escriptori\\UNI\\INFO2\\PROJECTE_INFO_2\\PROJECTE_INFO_ARREGLAT_2\\MisForms\\FormDades.cs [Design]",
-              "RelativeToolTip": "MisForms\\FormDades.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-30T11:09:03.489Z",
+              "WhenOpened": "2026-03-30T11:26:13.028Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "FormSimulacion.cs",
               "DocumentMoniker": "C:\\Users\\mique\\OneDrive\\Escriptori\\UNI\\INFO2\\PROJECTE_INFO_2\\PROJECTE_INFO_ARREGLAT_2\\MisForms\\FormSimulacion.cs",
               "RelativeDocumentMoniker": "MisForms\\FormSimulacion.cs",
               "ToolTip": "C:\\Users\\mique\\OneDrive\\Escriptori\\UNI\\INFO2\\PROJECTE_INFO_2\\PROJECTE_INFO_ARREGLAT_2\\MisForms\\FormSimulacion.cs",
               "RelativeToolTip": "MisForms\\FormSimulacion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAALoAAAAAAAAAAAAcwMgAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-30T10:58:15.231Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "FormSimulacion.cs [Design]",
               "DocumentMoniker": "C:\\Users\\mique\\OneDrive\\Escriptori\\UNI\\INFO2\\PROJECTE_INFO_2\\PROJECTE_INFO_ARREGLAT_2\\MisForms\\FormSimulacion.cs",
               "RelativeDocumentMoniker": "MisForms\\FormSimulacion.cs",

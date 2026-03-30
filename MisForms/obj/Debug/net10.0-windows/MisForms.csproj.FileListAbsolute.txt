@@ -116,3 +116,5 @@ C:\Users\mique\OneDrive\Escriptori\UNI\INFO2\PROJECTE_INFO_2\PROJECTE_INFO_ARREG
 C:\Users\mique\OneDrive\Escriptori\UNI\INFO2\PROJECTE_INFO_2\PROJECTE_INFO_ARREGLAT_2\MisForms\obj\Debug\net10.0-windows\MisForms.pdb
 C:\Users\mique\OneDrive\Escriptori\UNI\INFO2\PROJECTE_INFO_2\PROJECTE_INFO_ARREGLAT_2\MisForms\obj\Debug\net10.0-windows\MisForms.genruntimeconfig.cache
 C:\Users\mique\OneDrive\Escriptori\UNI\INFO2\PROJECTE_INFO_2\PROJECTE_INFO_ARREGLAT_2\MisForms\obj\Debug\net10.0-windows\ref\MisForms.dll
+C:\Users\mique\OneDrive\Escriptori\UNI\INFO2\PROJECTE_INFO_2\PROJECTE_INFO_ARREGLAT_2\MisForms\obj\Debug\net10.0-windows\MisForms.FormDades.resources
+C:\Users\mique\OneDrive\Escriptori\UNI\INFO2\PROJECTE_INFO_2\PROJECTE_INFO_ARREGLAT_2\MisForms\obj\Debug\net10.0-windows\MisForms.FormDistancia.resources

@@ -136,7 +136,24 @@ namespace MisForms
 
         private void button1_Click(object sender, EventArgs e)
         {
+            timerSimulacio.Start();
+        }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            timerSimulacio.Stop();
+        }
+
+        private void btnVeureDades_Click(object sender, EventArgs e)
+        {
+            // 1. Creem una instància de la nova finestra. 
+            // Fixa't que li passem 'this.v1' i 'this.v2', que són els avions d'aquest formulari.
+            FormDades finestraDades = new FormDades(this.v1, this.v2);
+
+            // 2. L'obrim amb .Show(). 
+            // Usem .Show() i NO .ShowDialog() perquè volem que les dues finestres 
+            // estiguin obertes a la vegada. Així pots veure el mapa i la taula alhora!
+            finestraDades.Show();
         }
     }
 }

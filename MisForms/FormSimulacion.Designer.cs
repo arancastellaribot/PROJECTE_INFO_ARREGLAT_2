@@ -32,17 +32,23 @@
             btnMover = new Button();
             timerSimulacio = new System.Windows.Forms.Timer(components);
             button1 = new Button();
+            button2 = new Button();
+            btnVeureDades = new Button();
             SuspendLayout();
             // 
             // btnMover
             // 
-            btnMover.Location = new Point(450, 33);
-            btnMover.Margin = new Padding(2, 2, 2, 2);
+            btnMover.BackColor = Color.Navy;
+            btnMover.FlatStyle = FlatStyle.Flat;
+            btnMover.Font = new Font("Segoe UI", 10F, FontStyle.Bold);
+            btnMover.ForeColor = Color.White;
+            btnMover.Location = new Point(562, 24);
+            btnMover.Margin = new Padding(2);
             btnMover.Name = "btnMover";
-            btnMover.Size = new Size(138, 27);
+            btnMover.Size = new Size(172, 45);
             btnMover.TabIndex = 0;
             btnMover.Text = "Moure un cicle";
-            btnMover.UseVisualStyleBackColor = true;
+            btnMover.UseVisualStyleBackColor = false;
             btnMover.Click += btnMover_Click;
             // 
             // timerSimulacio
@@ -51,22 +57,57 @@
             // 
             // button1
             // 
-            button1.Location = new Point(450, 65);
+            button1.BackColor = Color.Navy;
+            button1.FlatStyle = FlatStyle.Flat;
+            button1.Font = new Font("Segoe UI", 10F, FontStyle.Bold);
+            button1.ForeColor = Color.White;
+            button1.Location = new Point(532, 75);
             button1.Name = "button1";
-            button1.Size = new Size(138, 51);
+            button1.Size = new Size(222, 59);
             button1.TabIndex = 1;
-            button1.Text = "Moure tota la trajectòria";
-            button1.UseVisualStyleBackColor = true;
+            button1.Text = "Trajectòria automàtica";
+            button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
+            // 
+            // button2
+            // 
+            button2.BackColor = Color.Navy;
+            button2.FlatStyle = FlatStyle.Flat;
+            button2.Font = new Font("Segoe UI", 10F, FontStyle.Bold);
+            button2.ForeColor = Color.White;
+            button2.Location = new Point(562, 140);
+            button2.Name = "button2";
+            button2.Size = new Size(172, 44);
+            button2.TabIndex = 2;
+            button2.Text = "Aturar";
+            button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
+            // 
+            // btnVeureDades
+            // 
+            btnVeureDades.BackColor = Color.Navy;
+            btnVeureDades.FlatStyle = FlatStyle.Flat;
+            btnVeureDades.ForeColor = Color.White;
+            btnVeureDades.Location = new Point(562, 191);
+            btnVeureDades.Name = "btnVeureDades";
+            btnVeureDades.Size = new Size(172, 48);
+            btnVeureDades.TabIndex = 3;
+            btnVeureDades.Text = "Veure Dades";
+            btnVeureDades.UseVisualStyleBackColor = false;
+            btnVeureDades.Click += btnVeureDades_Click;
             // 
             // FormSimulacion
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(10F, 23F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(640, 360);
+            BackColor = SystemColors.ButtonFace;
+            ClientSize = new Size(800, 414);
+            Controls.Add(btnVeureDades);
+            Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(btnMover);
-            Margin = new Padding(2, 2, 2, 2);
+            Font = new Font("Segoe UI", 10F, FontStyle.Bold);
+            Margin = new Padding(2);
             Name = "FormSimulacion";
             Text = "Form1";
             Load += FormSimulacion_Load_1;
@@ -85,5 +126,7 @@
         private Button btnMover;
         private System.Windows.Forms.Timer timerSimulacio;
         private Button button1;
+        private Button button2;
+        private Button btnVeureDades;
     }
 }

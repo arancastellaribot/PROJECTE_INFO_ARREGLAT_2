@@ -26,59 +26,64 @@ namespace MisForms
 
         private void FormSimulacion_Paint(object sender, PaintEventArgs e)
         {
-            // 1. CREEM ELS LLAPIS (Pens)
-            // El '2' és el gruix de la línia. Pots posar-hi '1' si la vols més fina.
+            // 1. DIBUIXEM LES LÍNIES DE TRAJECTÒRIA
             Pen penBlau = new Pen(Color.LightBlue, 2);
             Pen penVermell = new Pen(Color.MistyRose, 2);
 
-            // 2. DIBUIXEM LA TRAJECTÒRIA DEL VOL 1 (Blau)
             e.Graphics.DrawLine(penBlau,
                 (float)v1.GetInitialPosition().GetX(), (float)v1.GetInitialPosition().GetY(),
                 (float)v1.GetFinalPostion().GetX(), (float)v1.GetFinalPostion().GetY());
 
-            // 3. DIBUIXEM LA TRAJECTÒRIA DEL VOL 2 (Vermell)
             e.Graphics.DrawLine(penVermell,
                 (float)v2.GetInitialPosition().GetX(), (float)v2.GetInitialPosition().GetY(),
                 (float)v2.GetFinalPostion().GetX(), (float)v2.GetFinalPostion().GetY());
 
-            // 4. DIBUIXEM ELS AVIONS (el codi que ja tenies)
-            // Els dibuixem al final perquè el cercle es vegi per sobre de la línia
-            e.Graphics.FillEllipse(Brushes.Blue, (float)v1.GetCurrentPosition().GetX(), (float)v1.GetCurrentPosition().GetY(), 10, 10);
-            e.Graphics.FillEllipse(Brushes.Red, (float)v2.GetCurrentPosition().GetX(), (float)v2.GetCurrentPosition().GetY(), 10, 10);
-
-            // Alliberem els llapis per no gastar memòria
             penBlau.Dispose();
             penVermell.Dispose();
-            double distanciaActual = v1.Distancia(v2);
 
-            Brush colorAvions = Brushes.Blue; // Color normal
+            // 2. LÒGICA DE COLORS
+            Brush colorV1 = Brushes.Blue;
+            Brush colorV2 = Brushes.Red;
+            double distanciaActual = v1.Distancia(v2);
 
             if (distanciaActual <= this.distSeguretat)
             {
-                // Si hi ha conflicte, canviem el color a Taronja!
-                colorAvions = Brushes.Orange;
+                colorV1 = Brushes.Orange;
+                colorV2 = Brushes.Orange;
             }
 
             // 3. DIBUIXEM ELS AVIONS
-            e.Graphics.FillEllipse(colorAvions, (float)v1.GetCurrentPosition().GetX(), (float)v1.GetCurrentPosition().GetY(), 10, 10);
+            // Restem 5 per alinear el centre (assumint que l'avió fa 10x10)
+            float x1 = (float)v1.GetCurrentPosition().GetX() - 5;
+            float y1 = (float)v1.GetCurrentPosition().GetY() - 5;
+            float x2 = (float)v2.GetCurrentPosition().GetX() - 5;
+            float y2 = (float)v2.GetCurrentPosition().GetY() - 5;
 
-            // Per diferenciar-los una mica, podem mantenir el v2 amb un pinzell diferent si vols, 
-            // o fer que tots dos siguin taronja en cas de perill.
-            e.Graphics.FillEllipse(colorAvions, (float)v2.GetCurrentPosition().GetX(), (float)v2.GetCurrentPosition().GetY(), 10, 10);
+            e.Graphics.FillEllipse(colorV1, x1, y1, 10, 10);
+            e.Graphics.FillEllipse(colorV2, x2, y2, 10, 10);
+
+            // 4. EL·LIPSE DE SEGURETAT
+            float radiSeg = (float)this.distSeguretat;
+            float diametreSeg = radiSeg * 2;
+            Pen penSeguretat = new Pen(Color.Black, 1);
+
+            // Restem el radi perquè el centre del cercle gran coincideixi amb el centre de l'avió
+            e.Graphics.DrawEllipse(penSeguretat, (float)v1.GetCurrentPosition().GetX() - radiSeg, (float)v1.GetCurrentPosition().GetY() - radiSeg, diametreSeg, diametreSeg);
+            e.Graphics.DrawEllipse(penSeguretat, (float)v2.GetCurrentPosition().GetX() - radiSeg, (float)v2.GetCurrentPosition().GetY() - radiSeg, diametreSeg, diametreSeg);
+
+            penSeguretat.Dispose();
         }
 
 
         private void btnMover_Click(object sender, EventArgs e)
         {
 
-            // Movem els dos avions usant el mètode Move creat a la Fase 1
-            this.v1.Mover(1.0);
-            this.v2.Mover(1.0);
+            // Movem els dos avions usant el temps de cicle configurat
+            this.v1.Mover(this.tempsCiclo);
+            this.v2.Mover(this.tempsCiclo);
 
-            // Refresquem el formulari per veure el moviment (Fase 3 i 4)
+            // Refresquem el formulari per veure el moviment
             this.Invalidate();
-
-            timerSimulacio.Start();
         }
 
         private void FormSimulacion_Load_1(object sender, EventArgs e)
@@ -127,6 +132,11 @@ namespace MisForms
             // Si tots dos han arribat, parem el rellotge
             if (v1.AvionDestino() && v2.AvionDestino())
                 timerSimulacio.Stop();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

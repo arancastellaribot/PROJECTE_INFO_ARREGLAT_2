@@ -26,19 +26,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Aran\\.nuget\\packages\\": {}
+    "C:\\Users\\mique\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Aran\\Desktop\\PROJECTE_INFO_ARREGLAT_2\\MisForms\\MisForms.csproj",
+      "projectUniqueName": "C:\\Users\\mique\\OneDrive\\Escriptori\\UNI\\INFO2\\PROJECTE_INFO_2\\PROJECTE_INFO_ARREGLAT_2\\MisForms\\MisForms.csproj",
       "projectName": "MisForms",
-      "projectPath": "C:\\Users\\Aran\\Desktop\\PROJECTE_INFO_ARREGLAT_2\\MisForms\\MisForms.csproj",
-      "packagesPath": "C:\\Users\\Aran\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Aran\\Desktop\\PROJECTE_INFO_ARREGLAT_2\\MisForms\\obj\\",
+      "projectPath": "C:\\Users\\mique\\OneDrive\\Escriptori\\UNI\\INFO2\\PROJECTE_INFO_2\\PROJECTE_INFO_ARREGLAT_2\\MisForms\\MisForms.csproj",
+      "packagesPath": "C:\\Users\\mique\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mique\\OneDrive\\Escriptori\\UNI\\INFO2\\PROJECTE_INFO_2\\PROJECTE_INFO_ARREGLAT_2\\MisForms\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Aran\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mique\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -52,8 +57,8 @@
         "net10.0-windows7.0": {
           "targetAlias": "net10.0-windows",
           "projectReferences": {
-            "C:\\Users\\Aran\\Desktop\\PROJECTE_INFO_ARREGLAT_2\\FlightLib\\FlightLib.csproj": {
-              "projectPath": "C:\\Users\\Aran\\Desktop\\PROJECTE_INFO_ARREGLAT_2\\FlightLib\\FlightLib.csproj"
+            "C:\\Users\\mique\\OneDrive\\Escriptori\\UNI\\INFO2\\PROJECTE_INFO_2\\PROJECTE_INFO_ARREGLAT_2\\FlightLib\\FlightLib.csproj": {
+              "projectPath": "C:\\Users\\mique\\OneDrive\\Escriptori\\UNI\\INFO2\\PROJECTE_INFO_2\\PROJECTE_INFO_ARREGLAT_2\\FlightLib\\FlightLib.csproj"
             }
           }
         }

@@ -76,5 +76,20 @@ namespace MisForms
                 MessageBox.Show("Hi ha un error. Recorda posar un espai a les posicions i només números a la velocitat.", "Atenció");
             }
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            // --- DADES DEL VOL 1 ---
+            id1.Text = "IBERIA-001";
+            PosIni1.Text = "0 0";
+            PosFin1.Text = "200 200";
+            vel1.Text = "150";
+
+            // --- DADES DEL VOL 2 ---
+            id2.Text = "RYANAIR-002";
+            PosIni2.Text = "0 200";
+            PosFin2.Text = "200 0";
+            vel2.Text = "200";
+        }
     }
 }

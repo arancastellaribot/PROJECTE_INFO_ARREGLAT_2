@@ -1,4 +1,5 @@
 using FlightLib;
+using System.Security.Policy;
 
 namespace MisForms
 {
@@ -8,6 +9,7 @@ namespace MisForms
         FlightPlan vol2_guardat;
         double distanciaSeguretat = 50.0; // Valor per defecte
         double tiempoCiclo = 1.0;
+        bool configuracioGuardada = false;
         public Principal()
         {
             InitializeComponent();
@@ -35,9 +37,11 @@ namespace MisForms
                 // Guardem els valors a les variables de Principal
                 this.distanciaSeguretat = ventanaConfiguracion.distancia;
                 this.tiempoCiclo = ventanaConfiguracion.tiempo;
+                configuracioGuardada = true;
 
                 MessageBox.Show("Configuració guardada correctament.");
             }
+            
         }
 
         private void Principal_Load(object sender, EventArgs e)
@@ -47,12 +51,13 @@ namespace MisForms
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (vol1_guardat != null && vol2_guardat != null)
+            if (vol1_guardat != null && vol2_guardat != null && configuracioGuardada == true)
             {
                 FormSimulacion ventanaSim = new FormSimulacion(vol1_guardat, vol2_guardat, distanciaSeguretat, tiempoCiclo);
                 ventanaSim.ShowDialog();
             }
-            else { MessageBox.Show("Introdueix els vols primer!"); }
+            else { MessageBox.Show("Atenció: Has d'introduir els vols i configurar la simulació abans de començar!"); 
+            }
         }
     }
 }

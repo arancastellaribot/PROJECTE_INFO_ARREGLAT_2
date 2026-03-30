@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\mique\\OneDrive\\Escriptori\\UNI\\INFO2\\PROJECTE_INFO_2\\PROJECTE_INFO_ARREGLAT_2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mique\\OneDrive\\Escriptori\\UNI\\INFO2\\PROJECTE_INFO_2\\PROJECTE_INFO_ARREGLAT_2\\MisForms\\FormCrearVuelos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MisForms\\FormCrearVuelos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mique\\OneDrive\\Escriptori\\UNI\\INFO2\\PROJECTE_INFO_2\\PROJECTE_INFO_ARREGLAT_2\\MisForms\\FormCrearVuelos.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MisForms\\FormCrearVuelos.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mique\\OneDrive\\Escriptori\\UNI\\INFO2\\PROJECTE_INFO_2\\PROJECTE_INFO_ARREGLAT_2\\MisForms\\FormCrearVuelos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MisForms\\FormCrearVuelos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mique\\OneDrive\\Escriptori\\UNI\\INFO2\\PROJECTE_INFO_2\\PROJECTE_INFO_ARREGLAT_2\\MisForms\\Principal.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,11 +22,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "FormCrearVuelos.cs",
               "DocumentMoniker": "C:\\Users\\mique\\OneDrive\\Escriptori\\UNI\\INFO2\\PROJECTE_INFO_2\\PROJECTE_INFO_ARREGLAT_2\\MisForms\\FormCrearVuelos.cs",
               "RelativeDocumentMoniker": "MisForms\\FormCrearVuelos.cs",
@@ -39,13 +39,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "FormCrearVuelos.Designer.cs",
               "DocumentMoniker": "C:\\Users\\mique\\OneDrive\\Escriptori\\UNI\\INFO2\\PROJECTE_INFO_2\\PROJECTE_INFO_ARREGLAT_2\\MisForms\\FormCrearVuelos.Designer.cs",
               "RelativeDocumentMoniker": "MisForms\\FormCrearVuelos.Designer.cs",
               "ToolTip": "C:\\Users\\mique\\OneDrive\\Escriptori\\UNI\\INFO2\\PROJECTE_INFO_2\\PROJECTE_INFO_ARREGLAT_2\\MisForms\\FormCrearVuelos.Designer.cs",
               "RelativeToolTip": "MisForms\\FormCrearVuelos.Designer.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAPAAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAPAAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-29T16:09:16.873Z",
               "EditorCaption": ""
@@ -60,7 +60,8 @@
               "RelativeToolTip": "MisForms\\Principal.Designer.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-29T16:09:08.936Z"
+              "WhenOpened": "2026-03-29T16:09:08.936Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -47,6 +47,8 @@
             label8 = new Label();
             label9 = new Label();
             label10 = new Label();
+            button2 = new Button();
+            button3 = new Button();
             SuspendLayout();
             // 
             // label1
@@ -207,11 +209,32 @@
             label10.TabIndex = 20;
             label10.Text = "PLAN DE VUELO 1";
             // 
+            // button2
+            // 
+            button2.Location = new Point(0, 0);
+            button2.Name = "button2";
+            button2.Size = new Size(94, 29);
+            button2.TabIndex = 21;
+            button2.Text = "button2";
+            button2.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            button3.Location = new Point(289, 245);
+            button3.Name = "button3";
+            button3.Size = new Size(164, 48);
+            button3.TabIndex = 22;
+            button3.Text = "AUTOCOMPLETAR";
+            button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
+            // 
             // FormCrearVuelos
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(button3);
+            Controls.Add(button2);
             Controls.Add(label10);
             Controls.Add(label9);
             Controls.Add(vel2);
@@ -259,5 +282,7 @@
         private Label label8;
         private Label label9;
         private Label label10;
+        private Button button2;
+        private Button button3;
     }
 }

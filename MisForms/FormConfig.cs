@@ -36,5 +36,10 @@ namespace MisForms
                 MessageBox.Show("Error: Introdueix números vàlids.");
             }
         }
+
+        private void FormConfig_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

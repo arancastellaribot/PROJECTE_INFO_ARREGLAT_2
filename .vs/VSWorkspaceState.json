@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\FlightLib",
+    "\\MisForms",
     "\\SimulatorConsole"
   ],
-  "SelectedNode": "\\.gitignore",
+  "SelectedNode": "\\MisForms\\FormCrearVuelos.cs",
   "PreviewInSolutionExplorer": false
 }

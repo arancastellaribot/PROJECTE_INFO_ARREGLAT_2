@@ -31,13 +31,15 @@
             components = new System.ComponentModel.Container();
             btnMover = new Button();
             timerSimulacio = new System.Windows.Forms.Timer(components);
+            button1 = new Button();
             SuspendLayout();
             // 
             // btnMover
             // 
-            btnMover.Location = new Point(562, 41);
+            btnMover.Location = new Point(450, 33);
+            btnMover.Margin = new Padding(2, 2, 2, 2);
             btnMover.Name = "btnMover";
-            btnMover.Size = new Size(172, 34);
+            btnMover.Size = new Size(138, 27);
             btnMover.TabIndex = 0;
             btnMover.Text = "Moure un cicle";
             btnMover.UseVisualStyleBackColor = true;
@@ -47,12 +49,24 @@
             // 
             timerSimulacio.Tick += timerSimulacio_Tick;
             // 
+            // button1
+            // 
+            button1.Location = new Point(450, 65);
+            button1.Name = "button1";
+            button1.Size = new Size(138, 51);
+            button1.TabIndex = 1;
+            button1.Text = "Moure tota la trajectòria";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
             // FormSimulacion
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(640, 360);
+            Controls.Add(button1);
             Controls.Add(btnMover);
+            Margin = new Padding(2, 2, 2, 2);
             Name = "FormSimulacion";
             Text = "Form1";
             Load += FormSimulacion_Load_1;
@@ -70,5 +84,6 @@
 
         private Button btnMover;
         private System.Windows.Forms.Timer timerSimulacio;
+        private Button button1;
     }
 }

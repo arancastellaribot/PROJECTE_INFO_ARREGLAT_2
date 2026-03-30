@@ -38,40 +38,45 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(143, 130);
+            label1.Location = new Point(114, 104);
+            label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
-            label1.Size = new Size(187, 25);
+            label1.Size = new Size(157, 20);
             label1.TabIndex = 0;
             label1.Text = "Distància de seguretat";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(559, 137);
+            label2.Location = new Point(447, 110);
+            label2.Margin = new Padding(2, 0, 2, 0);
             label2.Name = "label2";
-            label2.Size = new Size(129, 25);
+            label2.Size = new Size(109, 20);
             label2.TabIndex = 1;
             label2.Text = "Temps de Cicle";
             // 
             // txtDistancia
             // 
-            txtDistancia.Location = new Point(173, 172);
+            txtDistancia.Location = new Point(138, 138);
+            txtDistancia.Margin = new Padding(2, 2, 2, 2);
             txtDistancia.Name = "txtDistancia";
-            txtDistancia.Size = new Size(138, 31);
+            txtDistancia.Size = new Size(111, 27);
             txtDistancia.TabIndex = 2;
             // 
             // txtTiempo
             // 
-            txtTiempo.Location = new Point(572, 172);
+            txtTiempo.Location = new Point(458, 138);
+            txtTiempo.Margin = new Padding(2, 2, 2, 2);
             txtTiempo.Name = "txtTiempo";
-            txtTiempo.Size = new Size(116, 31);
+            txtTiempo.Size = new Size(94, 27);
             txtTiempo.TabIndex = 3;
             // 
             // btnAcceptar
             // 
-            btnAcceptar.Location = new Point(293, 250);
+            btnAcceptar.Location = new Point(234, 200);
+            btnAcceptar.Margin = new Padding(2, 2, 2, 2);
             btnAcceptar.Name = "btnAcceptar";
-            btnAcceptar.Size = new Size(307, 90);
+            btnAcceptar.Size = new Size(246, 72);
             btnAcceptar.TabIndex = 4;
             btnAcceptar.Text = "Acceptar";
             btnAcceptar.UseVisualStyleBackColor = true;
@@ -79,17 +84,17 @@
             // 
             // FormConfig
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1000, 562);
+            ClientSize = new Size(800, 450);
             Controls.Add(btnAcceptar);
             Controls.Add(txtTiempo);
             Controls.Add(txtDistancia);
             Controls.Add(label2);
             Controls.Add(label1);
-            Margin = new Padding(4);
             Name = "FormConfig";
             Text = "FormConfig";
+            Load += FormConfig_Load;
             ResumeLayout(false);
             PerformLayout();
         }

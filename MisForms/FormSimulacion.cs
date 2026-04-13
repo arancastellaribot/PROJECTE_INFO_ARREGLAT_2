@@ -210,14 +210,19 @@ namespace MisForms
         {
             // 1. Creem una instància de la nova finestra. 
             // Fixa't que li passem 'this.v1' i 'this.v2', que són els avions d'aquest formulari.
-            FormDades finestraDades = new FormDades(this.v1, this.v2);
+            FormDades finestraDades = new FormDades(this.v1, this.v2,this);
 
             // 2. L'obrim amb .Show(). 
             // Usem .Show() i NO .ShowDialog() perquè volem que les dues finestres 
             // estiguin obertes a la vegada. Així pots veure el mapa i la taula alhora!
             finestraDades.Show();
         }
-
+        // Aquest mètode el cridarà el FormDades quan canviïs una velocitat
+        public void ReiniciarSimulacioVisual()
+        {
+            timerSimulacio.Stop(); // Parem la simulació si estava corrent
+            this.Invalidate();     // Forcem a repintar el mapa (els avions sortiran a l'origen)
+        }
         private void btnPrediccio_Click(object sender, EventArgs e)
         {
             // 1. Cridem a la funció matemàtica que acabes de crear a la teva llibreria.

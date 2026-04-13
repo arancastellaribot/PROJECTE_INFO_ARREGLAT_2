@@ -38,20 +38,24 @@
             dgvVols.AllowUserToDeleteRows = false;
             dgvVols.BackgroundColor = SystemColors.Info;
             dgvVols.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvVols.Location = new Point(52, 26);
+            dgvVols.Location = new Point(65, 32);
+            dgvVols.Margin = new Padding(4);
             dgvVols.Name = "dgvVols";
-            dgvVols.ReadOnly = true;
             dgvVols.RowHeadersWidth = 51;
-            dgvVols.Size = new Size(707, 381);
+            dgvVols.Size = new Size(884, 476);
             dgvVols.TabIndex = 0;
             dgvVols.CellClick += dgvVols_CellClick;
+            dgvVols.CellContentClick += dgvVols_CellContentClick;
+            dgvVols.CellValueChanged += dgvVols_CellValueChanged_1;
+        
             // 
             // FormDades
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(1000, 562);
             Controls.Add(dgvVols);
+            Margin = new Padding(4);
             Name = "FormDades";
             Text = "Form1";
             Load += FormDades_Load;

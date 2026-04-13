@@ -73,6 +73,11 @@ namespace FlightLib
         public void SetVelocidad(double velocidad)
         // setter del atributo velocidad
         { this.velocidad = velocidad; }
+        public void ReiniciarPosicion()
+        {
+            // Tornem la posició actual a la que tenia al principi
+            this.currentPosition = new Position(initialPosition.GetX(), initialPosition.GetY());
+        }
 
         public void Mover(double tiempo)
         // Mueve el vuelo a la posición correspondiente a viajar durante el tiempo que se recibe como parámetro
@@ -183,6 +188,8 @@ namespace FlightLib
             // Retorna TRUE si la distància mínima serà inferior a la de seguretat
             return distMinimaCuadrada < (distanciaSeguretat * distanciaSeguretat);
         }
+      
+       
         public void EscribeConsola()
         // escribe en consola los datos del plan de vuelo
         {

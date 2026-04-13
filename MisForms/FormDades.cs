@@ -9,13 +9,14 @@ namespace MisForms
         // 1. Declarem els calaixos per guardar els vols que rebrem
         FlightPlan v1;
         FlightPlan v2;
-
+        FormSimulacion formularioPadre;
         // 2. Modifiquem el constructor: ARA REP ELS DOS VOLS
-        public FormDades(FlightPlan vol1, FlightPlan vol2)
+        public FormDades(FlightPlan vol1, FlightPlan vol2, FormSimulacion padre)
         {
             InitializeComponent(); // Això NO es toca, és el que dibuixa la taula
             this.v1 = vol1;
             this.v2 = vol2;
+            this.formularioPadre = padre;
         }
 
         // 3. Aquesta funció s'executa quan s'obre la finestra
@@ -37,20 +38,57 @@ namespace MisForms
 
         private void dgvVols_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            // Verifiquem que s'ha clicat una fila amb dades (no la capçalera)
-            if (e.RowIndex >= 0)
+            // Només obrim la finestra de distància si:
+            // 1. La fila és vàlida (e.RowIndex >= 0)
+            // 2. NO estem clicant a la columna de velocitat (e.ColumnIndex != 1)
+            if (e.RowIndex >= 0 && e.ColumnIndex != 1)
             {
-                // Calculem la distància actual entre v1 i v2
                 double dx = v1.GetCurrentPosition().GetX() - v2.GetCurrentPosition().GetX();
                 double dy = v1.GetCurrentPosition().GetY() - v2.GetCurrentPosition().GetY();
                 double dist = Math.Sqrt(dx * dx + dy * dy);
 
                 string text = $"Distància actual: {Math.Round(dist, 2)} unitats.";
-
-                // Obrim el formulari de detall
                 FormDistancia f = new FormDistancia(text);
                 f.ShowDialog();
             }
+        }
+        private void dgvVols_CellValueChanged_1(object sender, DataGridViewCellEventArgs e)
+        {
+            // 1. Comprovem que sigui la columna de velocitat
+            if (e.RowIndex >= 0 && e.ColumnIndex == 1)
+            {
+                try
+                {
+                    double novaVel = Convert.ToDouble(dgvVols.Rows[e.RowIndex].Cells[1].Value);
+
+                    // Agafem el vol corresponent (v1 o v2)
+                    FlightPlan volSeleccionat = (e.RowIndex == 0) ? v1 : v2;
+
+                    // NOMÉS si la velocitat és realment diferent, fem el procés
+                    if (novaVel != volSeleccionat.GetVelocidad())
+                    {
+                        volSeleccionat.SetVelocidad(novaVel);
+                        v1.ReiniciarPosicion();
+                        v2.ReiniciarPosicion();
+
+                        if (this.formularioPadre != null)
+                            this.formularioPadre.Invalidate();
+
+                        MessageBox.Show("Velocitat actualitzada a " + novaVel + " i trajectòria reiniciada.");
+                    }
+                }
+                catch
+                {
+                    // Si l'usuari escriu lletres, tornem a posar el valor que hi havia
+                    MessageBox.Show("Siusplau, introdueix un número vàlid.");
+                }
+            }
+        }
+        
+     
+        private void dgvVols_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

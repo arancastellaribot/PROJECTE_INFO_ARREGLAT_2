@@ -22,3 +22,9 @@ C:\Users\mique\OneDrive\Escriptori\UNI\INFO2\PROJECTE_INFO_2\PROJECTE_INFO_ARREG
 C:\Users\mique\OneDrive\Escriptori\UNI\INFO2\PROJECTE_INFO_2\PROJECTE_INFO_ARREGLAT_2\FlightLib\obj\Debug\FlightLib.csproj.CoreCompileInputs.cache
 C:\Users\mique\OneDrive\Escriptori\UNI\INFO2\PROJECTE_INFO_2\PROJECTE_INFO_ARREGLAT_2\FlightLib\obj\Debug\FlightLib.dll
 C:\Users\mique\OneDrive\Escriptori\UNI\INFO2\PROJECTE_INFO_2\PROJECTE_INFO_ARREGLAT_2\FlightLib\obj\Debug\FlightLib.pdb
+C:\Users\Aran\Desktop\PROJECTE_INFO_ARREGLAT_2\FlightLib\bin\Debug\FlightLib.dll
+C:\Users\Aran\Desktop\PROJECTE_INFO_ARREGLAT_2\FlightLib\bin\Debug\FlightLib.pdb
+C:\Users\Aran\Desktop\PROJECTE_INFO_ARREGLAT_2\FlightLib\obj\Debug\FlightLib.csproj.AssemblyReference.cache
+C:\Users\Aran\Desktop\PROJECTE_INFO_ARREGLAT_2\FlightLib\obj\Debug\FlightLib.csproj.CoreCompileInputs.cache
+C:\Users\Aran\Desktop\PROJECTE_INFO_ARREGLAT_2\FlightLib\obj\Debug\FlightLib.dll
+C:\Users\Aran\Desktop\PROJECTE_INFO_ARREGLAT_2\FlightLib\obj\Debug\FlightLib.pdb
